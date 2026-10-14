@@ -5,6 +5,7 @@ int usd_100,usd_50,usd_20,usd_10,usd_5,usd_1,amount;
 int n1,n2,n3,n4,n5,n6,n7,n8,n9,number,sum,numberx;
 double d,x1,x2,d2;
 int a,b,c;
+int integer;
 printf("\nEnter your amount: ");
 scanf(" %d",&amount);
 usd_100=amount/100;
@@ -81,5 +82,45 @@ printf("\nX1= %.f",x1);
 printf("\nX2= %.f",x2);
 //to be improve
 
+
+/*Write a C program using printf statement to print BYE in the following:
+
+BBB    Y     Y   EEEE
+B   B   Y   Y    E
+BBB       Y      EEEE
+B   B     Y
+*/
+
+
+printf("\n\n\nBBB    Y     Y   EEEE\nB   B   Y   Y    E\nBBB       Y      EEEE\nB   B 	  Y\n\n\n");
+
+
+//Write a program to read an integer. Display the value of that integer in decimal, octal, and hexadecimal notation.
+
+printf("\nEnter an integer: ");
+scanf(" %d",&integer);
+printf("\n Decimal(base10): %d\n Octal: %o\n hexadecimal lowercase: %x\n Hexadecimal uppercase: %X\n",integer,integer,integer,integer);
+
+
+
+
+
+
 return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
