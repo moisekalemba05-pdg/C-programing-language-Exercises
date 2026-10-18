@@ -31,8 +31,12 @@ amount2=quantity2*price2;
 amount3=quantity3*price3;
 total=amount1+amount2+amount3;
 
-printf("\n%.2f",total);
-
+printf("\n************ B I L L ************\nItem  Quantity  Price  Amount ");
+printf("\n\n---------------------------------\n %c       %d       %d₹    %d₹",a,quantity1,price1,amount1);
+printf("\n---------------------------------\n %c       %d       %d₹    %d₹",b,quantity2,price2,amount2);
+printf("\n---------------------------------\n %c       %d       %d₹    %d₹",c,quantity3,price3,amount3);
+printf("\n\n           TOTAL AMOUNT          ");
+printf("\n---------------------------------\n             %.2f₹\n",total);
 
 
 
